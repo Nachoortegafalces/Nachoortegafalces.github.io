@@ -1,16 +1,64 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Ejemplo Básico de HTML</title>
-  </head>
-  <body>
-    <h1>Encabezado Principal</h1>
-    <p>Este es un párrafo de texto.</p>
-    <ul>
-      <li>Elemento 1 de una lista sin ordenar</li>
-      <li>Elemento 2</li>
-      <li>Elemento 3</li>
-      <li>Elemento 4 </li>
-    </ul>
-  </body>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>www.silence.com</title>
+</head>
+
+<body>
+    
+    <div class ="contenedor">
+        <section>
+        <header>PIRULETAS SILENCE</header>
+        </section>
+    
+        <section>
+        <p>La invención de la moderna piruleta todavía es un misterio, pero una serie de empresas estadounidenses han reclamado su autoría en el siglo XX. La historia de las primeras piruletas en Estados Unidos, parece haber sido distorsionada con el tiempo. </p>
+        </section> 
+
+        
+
+        <section>
+            <h3>Sabores disponibles</h3>
+            <table id="tipos">
+                <tr>
+                <th>Piruleta</th>
+                <th>Chupa-Chups</th>
+                </tr>
+                <tr>
+                <td>fresa</td>
+                <td>piña</td>
+                </tr>
+                <tr>
+                <td>naranja</td>
+                <td>limon</td>
+                </tr>
+                <tr>
+                <td>frambuesa</td>
+                <td>sandia</td>
+                </tr>
+            </table>
+        </section>
+        
+
+        <section>   
+            <h1>Diseña tu piruleta</h1>
+            <form> 
+                <label for="Sabor1">Sabor principal:</label>
+                <input type="text" id="sabor1" name="sabor1"><br><br>
+                <label for="Sabor2">Sabor secundario:</label>
+                <input type="text" id="sabor2" name="sabor2"><br><br>
+                <input type="submit" value="Crear">        
+            </form>
+        </section>
+        
+        <a class="boton" href="https://www.elespanol.com/cocinillas/recetas/postres/20110504/receta-piruletas-caseras/1000014048598_30.html">elabora tu piruleta casera</a>
+        
+    </div>
+</body>
 </html>
