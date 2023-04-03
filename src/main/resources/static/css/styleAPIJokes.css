@@ -1,0 +1,48 @@
+.container{
+    text-align: center;
+}
+.button {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 30px 40px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambio de cursor */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 5px; /* Margen */
+    font-size: 23px; /* Tamaño de letra */
+  }
+  
+  /* Estilo de botones seleccionados */
+  .button[selected="selected"] {
+    background-color: #555; /* Cambio de color de fondo */
+  }
+  
+  /* Estilo de contenedor de chistes */
+  .jokes-container {
+    display: flex; /* Mostrar elementos en línea */
+    flex-wrap: wrap; /* Ajustar en línea si hay poco espacio */
+    justify-content: center; /* Centrar elementos en el contenedor */
+    margin-top: 30px; /* Margen superior */
+    
+  }
+  
+  /* Estilo de chistes */
+  .jokes-container div {
+    background-color: #f2f2f2; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px; /* Margen */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    max-width: 350px; /* Ancho máximo */
+    min-width: 250px; /* Ancho mínimo */
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2); /* Sombra */
+    transition: transform 0.2s ease-in-out; /* Transición al pasar el cursor */
+   
+  }
+  
+  /* Efecto al pasar el cursor por encima */
+  .jokes-container div:hover {
+    transform: scale(1.05); /* Aumentar tamaño */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Aumentar sombra */
+  }
+  

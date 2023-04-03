@@ -1,0 +1,143 @@
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: "Calibri", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: black;
+  padding: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 1100%;
+  background-image: url("https://image.freepik.com/free-photo/colorful-candies-wooden-table-background-top-view-with-copy-space_73274-403.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* Estilos para las secciones */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Estilos para los enlaces/botones */
+.boton {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.boton:hover {
+  background-color: #555;
+}
+
+/* Estilos para la tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+.contenedorCatalogo {
+  display: flex;
+}
+.contenedorApis {
+  display: flex;
+}
+
+.texto, .imagen {
+  width: 50%;
+}
+
+.texto {
+  padding: 20px;
+  font-size: 100px;
+  
+}
+.textoApi {
+  text-align: center;
+  padding: 20px;
+  font-size: 70px;
+  /*display: block; 
+  /*margin: 0 auto;*/
+}
+.botonCatalogo {
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
+  font-size: 100px;
+}
+.botonAPI {
+  font-size: 80%;
+  
+}
+.imagen img {
+  width: 100%;
+  height: auto;
+}
+.imagenApi img{
+  width: 40%;
+  height : auto;
+  margin-left:20em;
+}
+
+
+
+
+  
